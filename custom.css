@@ -67,3 +67,21 @@
 }
 
 .service-info-div{}
+
+.app-footer{
+    font-size: 12px;
+	text-align: center;
+}
+
+.footer-text{}
+
+.fo-menu-item-bar{
+	display: flex;
+    justify-content: center;
+}
+
+.fo-menu-item{
+	margin: 0 10px;
+}
+
+.policy-gutter{}
