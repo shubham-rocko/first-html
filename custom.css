@@ -1,3 +1,69 @@
-.test{
-	color:red;
+.app-container {
+	font-family: sans-serif;
 }
+
+.app-header {
+	background-color: #CFC3C0;
+	height: 90px;
+	align-items: flex-end;
+}
+
+.header-bar {
+	padding: 28px 0px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.brand-logo {
+	flex: 1;
+	text-align: center;
+}
+
+.header-menus {
+	flex: 3;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.menu-item {
+	margin: 0 30px;
+	font-size: 16px;
+}
+
+.menu-anchor{
+	text-decoration: unset;
+    color: #000;
+}
+
+.active{
+	color: #ff6104;
+}
+
+.bg-image-container {}
+
+.brand-bg-image {
+	width: 100%
+}
+
+.info-container{
+	margin: 0 50px;
+}
+
+.info-title{
+	font-size: 30px;
+}
+
+.info-gutter{
+
+}
+
+.info-para{
+	font-size: 15px;
+}
+
+.service-gutter{
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-info-div{}
