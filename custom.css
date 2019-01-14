@@ -76,19 +76,23 @@ a:hover{
 }
 
 .info-gutter{
-
-}
-
-p{
 	font-size: 15px;
 }
 
 .service-gutter{
 	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
+	margin: 0 -15px;
 }
 
-.service-info-div{}
+.service-info-div{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.service-info-img{
+	width: 100%;
+}
 
 .app-footer{
     font-size: 12px;
