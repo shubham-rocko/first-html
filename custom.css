@@ -1,3 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+figure{
+	margin: 0;
+	padding: 0;
+}
+
+a:hover{
+	color: #ff6104;
+}
+
+.container{
+	margin: 0 50px;
+}
+
 .app-container {
 	font-family: sans-serif;
 }
@@ -5,18 +30,15 @@
 .app-header {
 	background-color: #CFC3C0;
 	height: 90px;
-	align-items: flex-end;
 }
 
 .header-bar {
 	padding: 28px 0px;
 	display: flex;
-	align-items: flex-end;
 }
 
 .brand-logo {
 	flex: 1;
-	text-align: center;
 }
 
 .header-menus {
@@ -57,7 +79,7 @@
 
 }
 
-.info-para{
+p{
 	font-size: 15px;
 }
 
@@ -70,7 +92,10 @@
 
 .app-footer{
     font-size: 12px;
-	text-align: center;
+    text-align: center;
+    margin-top: 50px;
+    border-top: 2px solid #9a9a9a;
+    padding: 30px 0;
 }
 
 .footer-text{}
@@ -85,3 +110,11 @@
 }
 
 .policy-gutter{}
+
+.space-top-50{
+	margin-top: 50px; 
+}
+
+.space-top-20{
+	margin-top: 20px; 
+}
